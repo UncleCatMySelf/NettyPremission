@@ -14,6 +14,22 @@ Netty权限消息分发，等级机制（金字塔），圈子模式（同级消
     金字塔消费分发
     圈子同级消费分发
 
+## 相关项目
+
+你可能还想了解的项目：
+
+* ssmnetty： https://github.com/UncleCatMySelf/ssmnetty
+
+基于SSM与Netty结合实现软硬件通信（TCP）、API向指定链接发送消息
+
+* SBToNettyChat： https://github.com/UncleCatMySelf/SBToNettyChat
+
+基于SpringBoot-WebSocket通用框架,结合Netty进行聊天社交，并记录聊天日志，异步数据库存储，记录聊天历史等
+
+* NettyPremission： https://github.com/UncleCatMySelf/NettyPremission
+
+运用Netty为主进行权限消息分发的组件，两种权限机制（Circle圈子模式，同等级的一个社交圈、Grade等级模式，每一个等级可以消费到比自己低等级的消息）
+
 ## 项目思路
 
 本次我选择SpringBoot2.0.2还有Netty4.1.28这两个版本来结合使用。

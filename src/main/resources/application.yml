@@ -1,0 +1,6 @@
+netty:
+  port: 8090
+  bossThread: 2
+  workerThread: 2
+  keepalive: true
+  backlog: 100
